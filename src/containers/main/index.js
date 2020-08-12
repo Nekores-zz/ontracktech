@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../../components";
-import { SectionOne, SectionTwo } from "../Home/";
+import { SectionOne, SectionTwo, SectionThree, SectionFour } from "../Home/";
 import "../../styles/common/layout.css";
 
 function App() {
@@ -9,6 +9,8 @@ function App() {
       <Navbar />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
+      <SectionFour />
     </div>
   );
 }

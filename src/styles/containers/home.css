@@ -1,18 +1,13 @@
-.section-bank-aproch {
+.section-home  {
   margin-top: -55px;
   height: 100vh;
 }
-.section-bank-aproch .banking-aproch {
-  /* width: 310.9px; */
-  /* height: 575.3px; */
-  /* object-fit: contain; */
-}
-.section-bank-aproch .finin-card {
+.section-home .finin-card {
   width: 353.2px;
   height: 309.5px;
   object-fit: contain;
 }
-.section-bank-aproch .heading-content h1 {
+.section-home .heading-content h1 {
   font-family: Avenir-Black;
   font-size: 42px;
   font-weight: 900;
@@ -23,7 +18,7 @@
   color: var(--global-black);
   padding-right: 20px;
 }
-.section-bank-aproch .heading-content p {
+.section-home .heading-content p {
   font-family: Avenir-Medium;
   font-size: 24px;
   font-weight: 500;
@@ -34,7 +29,7 @@
   text-align: left;
   color: var(--global-grey);
 }
-.section-bank-aproch .heading-content h2 {
+.section-home .heading-content h2 {
   font-family: Avenir-Heavy;
   font-size: 22px;
   font-weight: 900;
@@ -45,7 +40,7 @@
   text-align: left;
   color: var(--global-black);
 }
-.finin-title {
+.section-home-title {
   font-family: Avenir-Heavy;
   font-size: 22px;
   font-weight: 900;
@@ -130,10 +125,10 @@
   object-fit: contain;
 }
 
-.manage-accounts {
+.approach {
   margin: 80px 0px;
 }
-.manage-accounts .manage-account-content h2 {
+.approach .approach-content h2 {
   font-family: Avenir-Black;
   font-size: 46px;
   font-weight: 900;
@@ -142,9 +137,9 @@
   line-height: 1.46;
   letter-spacing: normal;
   text-transform: capitalize;
-  color: #36e2a3;
+  color: var(--global-blue);
 }
-.manage-accounts .manage-account-content h3 {
+.approach .approach-content h3 {
   font-family: Avenir-Heavy;
   font-size: 32px;
   font-weight: 900;
@@ -152,9 +147,9 @@
   font-style: normal;
   line-height: 1.19;
   letter-spacing: normal;
-  color: #1d1d1d;
+  color: var(--global-grey);
 }
-.manage-accounts .manage-account-content p {
+.approach .approach-content p {
   font-family: Avenir-Roman;
   font-size: 22px;
   font-weight: normal;
@@ -163,26 +158,87 @@
   line-height: 1.45;
   letter-spacing: normal;
   text-align: left;
-  color: #051010;
+  color: var(--global-grey);
 }
 
-.manage-accounts .manage-account-image img {
+.approach .approach-image img {
   width: 461.5px;
   height: 383.8px;
   object-fit: contain;
 }
-.manage-accounts .saving-hard-image img {
+.approach .saving-hard-image img {
   width: 441px;
   height: 360.8px;
   object-fit: contain;
 }
-.manage-accounts .saving-hard-content {
+.approach .saving-hard-content {
   text-align: right;
 }
-.manage-accounts .saving-hard-content p {
+.approach .saving-hard-content p {
   text-align: right;
 }
-.manage-accounts .saving-ac {
+.approach .saving-ac {
   padding-right: 0px;
   padding-left: 35px;
+}
+
+
+
+/* About more */
+.about-more {
+  position: relative;
+  background-color: var(--global-grey);
+  padding: 90px 0px;
+}
+.about-more .about-content h3 {
+  font-family: Avenir-Black;
+  font-size: 46px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffff;
+}
+.about-more .about-content p {
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffff;
+}
+.about-more .about-cards {
+  padding-right: 70px;
+}
+.about-more .about-cards .media img {
+  width: 94px;
+  height: 88px;
+  object-fit: contain;
+}
+.about-more .about-cards h5 {
+  font-family: Avenir-Black;
+  font-size: 26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffff;
+}
+.about-more .about-cards p {
+  font-family: Avenir-Roman;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffff;
 }

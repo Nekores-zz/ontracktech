@@ -24,8 +24,8 @@ class Navbar extends Component {
             <div className="">
               <div className="">
                 <div className="navbar-nav">
-                  {this.state.data.map(item => (
-                    <a className="nav-item nav-link active hidden-xs" href="/">
+                  {this.state.data.map((item, index) => (
+                    <a className="nav-item nav-link active hidden-xs" key={index} href="/">
                       {item} <span className="sr-only">(current)</span>
                     </a>
                   ))}

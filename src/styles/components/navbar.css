@@ -1,0 +1,33 @@
+/* navbar classes */
+.navbar_app {
+    height: 110px;
+  }
+  .navbar_app .navbar {
+    padding: 0rem 0rem;
+  }
+  
+  .navbar_app .navbar-brand {
+    margin-top: 46px;
+    margin-bottom: 20px;
+  }
+  .navbar_app .navbar-brand img {
+    width: 160px;
+    object-fit: contain;
+  }
+  
+  .navbar_app .navbar-nav .nav-link {
+    text-decoration: underline;
+    height: 22px;
+    margin-left: 50px;
+    font-family: Avenir-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: right;
+    color: #051010;
+    text-transform: capitalize;
+  }
+  

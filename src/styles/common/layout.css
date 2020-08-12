@@ -1,0 +1,49 @@
+@import "./theme.css";
+@font-face {
+  font-family: Avenir-Roman;
+  src: url("../../assets/fonts/Avenir-Roman.ttf") format("truetype");
+}
+@font-face {
+  font-family: Avenir-Medium;
+  src: url("../../assets/fonts/Avenir-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url("../../assets/fonts/Avenir-Heavy.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: Avenir-Black;
+  src: url("../../assets/fonts/Avenir-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: Avenir;
+  src: url("../../assets/fonts/Avenir-Book.ttf");
+}
+
+/* Helpers classes */
+body {
+  font-family: Avenir;
+}
+html {
+  scroll-behavior: smooth;
+}
+.form-control {
+  border-radius: 0rem;
+}
+.scrolled {
+  background: red;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #36e2a3 !important;
+}
+
+.mt100 {
+  margin-top: 100px;
+}
+.address-email {
+  flex-grow: 1 !important;
+  display: grid !important;
+}
